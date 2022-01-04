@@ -12,12 +12,13 @@ An application that helps small and medium businesses onboard new employees and 
  
 
 ## Roadmap
- * Merchant accounts
- * Seller accounts
+ * HR sends out slack invites to successful applicants 
+ * SMS and Email notifications to applicants and employees
+ * Line-Managers add new employees to specific/team slack groups
  * APIs for clients
 
 
 ## Possible Ideas
- * Real time tracking of delivery
- * Locate nearby stores
+ * More API integrations
+ * Applicant Job Aptitude Tests
  * Mobile apps
