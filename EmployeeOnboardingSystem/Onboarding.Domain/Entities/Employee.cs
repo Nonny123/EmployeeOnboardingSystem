@@ -12,7 +12,7 @@ namespace Onboarding.Domain.Entities
     public class Employee : UserBase
 	{
 		[Key]
-		public long EmployeeId { get; set; }
+		public string EmployeeId { get; set; } = Guid.NewGuid().ToString();
 
 		[Required]
 		[EmailAddress(ErrorMessage = "Enter valid email address")]
@@ -29,10 +29,12 @@ namespace Onboarding.Domain.Entities
 		public DateTime EmployeeStartDate { get; set; }
 		public DateTime LastModified { get; set; }
 
-		[Column(TypeName = "decimal(18,4)")]
+		[Column(TypeName = "decimal(18,2)")]
 		public decimal Salary { get; set; }
 		public bool IsActive { get; set; } = true;
+		public string Avatar { get; set; }
 
+		public User User { get; set; }
 
 	}
 }

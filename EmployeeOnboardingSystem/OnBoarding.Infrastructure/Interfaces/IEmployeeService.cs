@@ -9,11 +9,11 @@ namespace OnBoarding.Infrastructure.Interfaces
     public interface IEmployeeService
     {
         Task<Response<string>> AddEmployeeAsync(EmployeeDto employee);
-        Task<Response<string>> DeleteEmployeeAsync(long employeeId);
-        Task<Response<IEnumerable<Employee>>> GetAllEmployeesAsync();
-        Task<Response<Employee>> GetEmployeeByIdAsync(long employeeId);
-        Task<Response<IEnumerable<Employee>>> SearchEmployeeAsync(string searchTerm);
-        Task<Response<string>> UpdateEmployeeAsync(long employeeId, UpdateEmployeeDto employeeDto);
-        Task<Response<string>> UpdateEmployeeAvatarAsync(long employeeId, string avatar);
+        Task<Response<string>> DeleteEmployeeAsync(string employeeId);
+        Task<Response<IEnumerable<EmployeeResponseDto>>> GetAllEmployeesAsync();
+        Task<Response<EmployeeResponseDto>> GetEmployeeByIdAsync(string employeeId);
+        Task<Response<IEnumerable<EmployeeResponseDto>>> SearchEmployeeAsync(string searchTerm);
+        Task<Response<Employee>> UpdateEmployeeAsync(string employeeId, UpdateEmployeeDto employeeDto);
+        Task<Response<Employee>> UpdateEmployeeAvatarAsync(string employeeId, string avatar);
     }
 }
