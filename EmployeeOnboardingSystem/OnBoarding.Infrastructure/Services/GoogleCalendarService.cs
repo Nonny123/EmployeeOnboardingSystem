@@ -32,8 +32,8 @@ namespace OnBoarding.Infrastructure.Services
             var credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                            new ClientSecrets
                            {
-                               ClientId = "395069000707-95lnrier38f0j41s7b20ft4pn06jhr0f.apps.googleusercontent.com",
-                               ClientSecret = "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",
+                               ClientId = "your-client-id",
+                               ClientSecret = "your-client-secret",
                            },
                            new[] { CalendarService.Scope.Calendar },
                            "user",
