@@ -10,8 +10,6 @@ namespace OnBoarding.Infrastructure.Interfaces
 {
     public interface ISlackService
     {
-        HttpWebResponse PostMessage(string channel, string message);
         Task<Response<string>> SendMessageToChannelWithSMB(string channel, string text);
-        Task SlackChannel();
     }
 }
