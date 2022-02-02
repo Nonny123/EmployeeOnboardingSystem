@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeOnboardingSystem", "EmployeeOnboardingSystem\EmployeeOnboardingSystem.csproj", "{03523673-435C-4DE7-BC42-617A258BF33B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onboarding.Domain", "Onboarding.Domain\Onboarding.Domain.csproj", "{140D7CE8-5C69-4405-84A7-3E50E8A97A26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onboarding.Domain", "Onboarding.Domain\Onboarding.Domain.csproj", "{140D7CE8-5C69-4405-84A7-3E50E8A97A26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnBoarding.Infrastructure", "OnBoarding.Infrastructure\OnBoarding.Infrastructure.csproj", "{69A314E8-9731-4835-81C4-6D362755C221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnBoarding.Infrastructure", "OnBoarding.Infrastructure\OnBoarding.Infrastructure.csproj", "{69A314E8-9731-4835-81C4-6D362755C221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnBoarding.Application", "OnBoarding.Application\OnBoarding.Application.csproj", "{80A06E68-B243-4CB5-AE66-473F3979D897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnBoarding.Application", "OnBoarding.Application\OnBoarding.Application.csproj", "{80A06E68-B243-4CB5-AE66-473F3979D897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onboarding.API", "Onboarding.API\Onboarding.API.csproj", "{7B6CE339-5E50-4C77-A169-B2C7A0DE74E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{80A06E68-B243-4CB5-AE66-473F3979D897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A06E68-B243-4CB5-AE66-473F3979D897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A06E68-B243-4CB5-AE66-473F3979D897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6CE339-5E50-4C77-A169-B2C7A0DE74E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6CE339-5E50-4C77-A169-B2C7A0DE74E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6CE339-5E50-4C77-A169-B2C7A0DE74E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6CE339-5E50-4C77-A169-B2C7A0DE74E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
